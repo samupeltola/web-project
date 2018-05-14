@@ -1,0 +1,63 @@
+body {
+	background-color: linen;
+	padding-top: 50px;
+	height: 100%;
+}
+
+.carousel {
+	height: 320px;
+	margin-top: auto;
+	overflow: hidden;
+}
+
+.carousel-inner img { 
+	margin: auto;
+}
+
+.carousel-caption h3 {
+    color: #fff !important;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+}
+/* Add a dark background color with a little bit see-through */ 
+.navbar {
+    margin-bottom: 0;
+    background-color: #00e673;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity:0.9;
+}
+
+/* color to all navbar links */
+.navbar li a, .navbar .navbar-brand { 
+    color: #fff !important;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+    color: #fff !important;
+	background-color: #00e673;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#00e673 !important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+	background-color: #00e673;
+}
+
+
+#googleMap {
+    width: 100%; /* Span the entire width of the screen */
+    height: 400px; /* Set the height to 400 pixels */
+}
