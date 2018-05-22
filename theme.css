@@ -14,6 +14,10 @@ h2 {
 	margin-left: 12px;
 }
 
+h3 {
+	text-align: center;
+}
+
 .row {
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -23,8 +27,12 @@ h2 {
 	overflow: hidden;
 }
 
-.row-color {
+.col-md-7 {
 	background-color: white;
+}
+
+.col-md-4 {
+	font-size: 16px;
 }
 
 .carousel {
@@ -55,7 +63,7 @@ h2 {
 /* Add a background color with a little bit see-through */ 
 .navbar {
     margin-bottom: 0;
-    background-color: #00e673;
+    background-color: #7070db;
     border: 0;
     font-size: 12px !important;
     letter-spacing: 2px;
