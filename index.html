@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Palmukari</title>
+<title>Jalkahoito ja hieronnat &middot; Palmukari</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Jalkahoito ja hieronta">
+<meta name="keywords" content="Jalkahoito, hieronta, kotikäynti">
+<meta name="author" content="Samu Peltola">
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<!-- Latest compiled and minified CSS -->
+<!-- Latest compiled and minified CSS and tab icon-->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="theme.css">
 <link href='https://fonts.googleapis.com/css?family=Sahitya' rel='stylesheet'>
+<link rel="icon" href="/images/tabicon.png">
 <style>
 
 </style>
@@ -32,51 +36,79 @@
 		</div>
 		<div class="collapse navbar-collapse" id="myNavbar">
 		  <ul class="nav navbar-nav navbar-right">
-			<li><a href="#hotstone">KUUMAKIVIHIERONTA</a></li>
-			<li><a href="#tibet">TIIBETILÄINEN VARTALONHOITO</a></li>
-			<li><a href="#herb">YRTTINYYTTIHIERONTA</a></li>
+			<li><a href="#pedi">HOIDOT</a></li>
 			<li><a href="#prices">HINNASTO</a></li>
 			<li><a href="#contacts">YHTEYSTIEDOT</a></li>
 		  </ul>
 		</div>
 	</nav>
+	  </div>
 </div>
-
 <!-- Header with image -->
-<div id="myCarousel" class="carousel slide col-md-12" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-  </ol>
+<div class="row row-color">
+	<div id="myCarousel" class="carousel slide col-md-12" data-ride="carousel">
+	  <!-- Indicators -->
+	  <ol class="carousel-indicators">
+		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		<li data-target="#myCarousel" data-slide-to="1"></li>
+	  </ol>
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="/images/test.jpg" alt="testi 1">
-      <div class="carousel-caption">
-      </div> 
-    </div>
-    <div class="item">
-      <img src="/images/test2.png" alt="">
-    </div>
-  </div>
+	  <!-- Wrapper for slides -->
+	  <div class="carousel-inner" role="listbox">
+		<div class="item active">
+		  <img src="/images/carousel1.JPG" alt="Sisäänkäynti">
+		  <div class="carousel-caption">
+		  </div> 
+		</div>
+		<div class="item">
+		  <img src="/images/carousel2.JPG" alt="Hoitovälineet">
+		</div>
+	  </div>
 
-  <!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+	  <!-- Left and right controls -->
+	  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
+	  </a>
+	  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+	  </a>
+	</div>
 </div>
 <!-- Hoidot -->
 <div class="row row-color">
 	<div class="container-fluid col-md-1"></div>
+	<div id="pedi" class="container-fluid text-center col-md-7 col-xs-12">
+		<h1>Jalkahoito</h1>
+		<p>Jalkojen tarkistus, kylvetys. <br>
+		Iho- ja kynsimuutosten (esim. kovettumat, halkeamat, känsät. jalka- ja kynsisienet) mekaaninen hoito. <br>
+		Rasvaushieronta.<br>
+		Jalkojen hyvinvoinnista alkaa koko kropan hyvä olo!
+		</p>
+	</div>
+	<div id="desc-image-pedi" class="container-fluid col-md-4 col-xs-12">
+		<img src="/images/pedi.JPG" class="img-responsive" alt="jalkahoito">
+	</div>
+</div>
+<div class="row row-color">
+	<div class="container-fluid col-md-1"></div>
+	<div id="phyt" class="container-fluid text-center col-md-7 col-xs-12">
+		<h1>Phyt's luonnonmukainen käsi- tai jalkahoito</h1>
+		<p>Phyt´s luonnonmukainen hemmotteleva, pehmittävä käsi ja jalkahoito.
+		Rentouttava ja pehmittävä käsi- ja jalkahoitokokonaisuus, jolla saadaan väsyneet, kuivat ja palelevat jalat ja kädet
+		pehmeän ja kevyen tuntuisiksi. Ravitsevat luomu-kasviöljyt, sekä aktivoivat eteeriset öljyt hoitavat kuivaa ja karheaa ihoa.
+		Rentouttava hieronta ja hemmotteleva naamio lämpöpussilla...voi se on ”kutkuttavan ihanaa”.
+		</p>
+	</div>
+	<div id="desc-image" class="container-fluid col-md-4 col-xs-12">
+		<img src="/images/phyt.JPG" class="img-responsive" alt="testi 1">
+	</div>
+</div>
+<div class="row row-color">
+	<div class="container-fluid col-md-1"></div>
 	<div id="hotstone" class="container-fluid text-center col-md-7 col-xs-12">
-		<h2>Kuumakivihieronta</h2>
+		<h1>Kuumakivihieronta</h1>
 		<p><b>Kiviterapia on ikivanha hoitomuoto.</b> Kivillä on hoidettu sairauksia ja pyritty ehkäisemään niitä. Lämpimillä
 		ja kylmillä kivillä tehtävillä hoidoilla ja hieronnoilla on pitkät perinteet.
 		<br>Hoidossa käytettään kuumia laava- eli basalttikiviä. Kylmiä sedimenttikiviä käytetään ihon rauhoittamiseen ja turvotuksen 
@@ -94,19 +126,19 @@
 		tuu kuona-aineita. Kuumat kivet sopivat lämpöpakkausten asemasta rentouttamaan ja vapauttamaan asiakas kroonisista kivuista. Kiviä
 		voidaan myös käyttää kontrastihoitona; vuorotellen kuumia ja kylmiä kiviä, jolloin saadaan verenkierto vilkastumaan.
 		<br><br><b>Vasta-aiheita:</b> Kaikki sairaudet, joissa lämmönsietokyky ja tunto ovat alentuneet joko paikallisesti tai kokonaisvaltaisesti. 
-		Kiviterapiaa ei tehdö suonikohjuihin, diabeetikoille, sydänsairaille eikä mielellään ohentuneelle iholle. Myös muut hieronnan
-		 vasta-aiheet oat esteenä tälle hoidolle, kuten esim. tarttuva ihosairaus, tulehdus, kuume, flunssa jne. Jos olet epävarma,
-		  voitko ottaa vastaan hierontaa, kysy neuvoa lääkäriltäsi.
+		Kiviterapiaa ei tehdä suonikohjuihin, diabeetikoille, sydänsairaille eikä mielellään ohentuneelle iholle. Myös muut hieronnan
+		vasta-aiheet oat esteenä tälle hoidolle, kuten esim. tarttuva ihosairaus, tulehdus, kuume, flunssa jne. Jos olet epävarma,
+		voitko ottaa vastaan hierontaa, kysy neuvoa lääkäriltäsi.
 	 </p>
 	</div>
 	<div id="desc-image" class="container-fluid col-md-4 col-xs-12">
-		<img src="/images/test.jpg" alt="testi 1">
+		<img src="/images/hotstone.jpg" class="img-responsive" alt="testi 1">
 	</div>
 </div>
 <div class="row row-color">
 	<div class="container-fluid col-md-1"></div>
 	<div id="tibet" class="container-fluid text-center col-md-7 col-xs-12">
-		<h2>Tiibetiläinen vartalohieronta</h2>
+		<h1>Tiibetiläinen vartalohieronta</h1>
 		<p><b>Tibet on Himalajalta tuulahduksia tuova, puhdistava, rentouttava, tasapainottava ja stressiä poistava vartalonhoito.</b>
 		<br><br>Itämaisten munkkien käyttämä hoitorituaali poistaa stressiä ja lihasjännitystä.
 		Tibet-hoidossa käytetään Himalajan kiviä ja merisuolaa sisältäviä pellavaliinoja ja lämmitettyä manteliöljyä.
@@ -115,7 +147,7 @@
 	</p>
 	</div>
 	<div id="desc-image" class="container-fluid col-md-4 col-xs-12">
-		<img src="/images/test.jpg" alt="testi 1">
+		<img src="/images/tibet.JPG" class="img-responsive" alt="testi 1">
 	</div>
 </div>
 <div class="row row-color">
@@ -140,7 +172,7 @@
 		</p>
 	</div>
 	<div id="desc-image" class="container-fluid col-md-4 col-xs-12">
-		<img src="/images/test.jpg" alt="testi 1">
+		<img src="/images/herb.JPG" class="img-responsive" alt="testi 1">
 	</div>
 </div>
 <!-- Prices -->
@@ -151,7 +183,7 @@
 	<table class="table">
 		<tbody>
 		<tr>
-			<td><b>Jalkahoito: </b></td><td>45,00 €</td>
+			<td><b>Jalkahoito: </b></td><td style="width: 80px;">45,00 €</td>
 		</tr>
 		<tr>
 			<td><b>Phyt's luonnonmukainen käsi- tai jalkahoito:</b></td><td>55,00 €</td>
@@ -188,22 +220,57 @@
 	<h3>Yhteystiedot</h3>
 	<h3>Tuija Peltola</h3>
 	<p>Lähihoitaja - jalkojenhoidon osaamisala<br>
-	Mankantie 43 Eurajoki<br>
+	<b>Hoitola: </b>Mankantie 43 Eurajoki<br>
 	<b>Email:</b> peltola.tuija64@gmail.com<br>
 	<b>Puh.</b> 050 320 5134<br>
 	<b>Y-tunnus:</b> 2758635-5
+	<div class="popup" onclick="licensePopup()">Lue tietosuojakäytännöistä
+	<span class="popuptext" id="license">Seloste henkilötietolain käsittelytoimista<br><br>
+	Henkilötietolain (523/1999) 10§:n mukainen rekisteriseloste<br><br>
+	25.5.2018 voimaan tulleen tietosuoja-asetuksen GPRD myötä organisaatioiden tulee laatia kirjallinen kuvaus niiden
+	toteuttamisesta henkilötietojen käsittelystä.<br><br>
+	Tästä selosteesta löytyy yrityksen Jalkahoitaja Tuija Peltola seloste siitä miksi ja mihin henkilötietoja kerätään
+	ja miten niitä säilytetään.<br><br><br>
+	Rekisterin ylläpitäjä: Jalkahoitaja Tuija Peltola<br>
+	Y-tunnus: 2758635-5<br>
+	Yhteystiedot rekisteriä koskevissa asioissa:<br>
+	Tuija Peltola<br>
+	Mankantie 43<br>
+	27100 Eurajoki<br>
+	puh. 050 320 5134 /peltola.tuija64@gmail.com<br>
+	Yksityisen terveydenhuollon palvelujen ammatinharjoittajan toimintaa sääntelee laki yksityisestä terveydenhuollosta.
+	Aluehallintovirasto (AVI) valvoo yksityisiä terveyspalveluja. Lähihoitajana toimin Valviran ohjeiden mukaan ja minulla
+	on velvollisuus pitää potilasrekisteriä kaikista asiakkaistani. Tällä esitietolomakkeella pyydän asiakkailtani vain sellaisia
+	tietoja, joiden avulla hoito on turvallista ja täsmällistä asiakkaan muu terveydentila huomioon ottaen.
+	Tieto on salassa pidettävää, eikä siirry asiakkaan itsensä sitä pyytämättä muille tahoille. Hoidon olennaiset
+	asiat kirjataan jokaisen hoidon jälkeen potilastietoihin hoidon laadun ja seurannan mahdollistamiseksi.<br>
+	Esitietolomakkeen henkilötiedot ovat välttämättömiä asiakasturvallisuuden vuoksi. Potilasvakuutus on pakollinen ja sitä varten on
+	asiakkailta kerättävä henkilötiedot.<br>
+	Potilasasiakirjoja säilytetään lukollisessa kaapissa.<br>
+	Asiakkaalla on oikeus pyytää potilastietonsa nähtäväksi rekisterin pitäjältä henkilökohtaisesti.<br>
+	Potilasrekisteriä säilytetään lain määräämä aika.<br> Asiakkaalla on oikeus vaatia tietojen korjaamista. Korjauspyyntö tulee 
+	tehdä kasvotusten.
+	Asiakkaan tulee todistaa henkilöllisyytensä nähdäkseen tietonsa. Asiakkaalla on myös oikeus pyytää häntä koskevien tietojen 
+	poistaminen Jalkahoitaja Tuija Peltolan asiakasrekisteristä. Asiakkaan tietoja on kirjanpitoon liittyvissä dokumenteissa, 
+	maksukuiteissa tai laskuissa. Nämä tiedot voidaan poistaa vasta kirjanpitolain vaatiman seitsemän vuoden säilyttämisen jälkeen.
+	</span>
+	</div>
 	</div>
 </div>
 <!-- Add Google Maps -->
 <div class="row">
-	<div id="googleMap" class="col-md-12 col-xs-12"></div>
+	<div id="googleMap" class="container-fluid col-md-12 col-xs-12"></div>
 </div>
 <!-- Footer -->
 <footer>
-  <p>Developer contact information: <a href="mailto:samu.peltola@eng.tamk.fi">
-  </a>samu.peltola@eng.tamk.fi</p>
 </footer>
 <script>
+// When the user clicks on div, open the popup
+function licensePopup() {
+    var popup = document.getElementById("license");
+    popup.classList.toggle("show");
+}
+
 function myMap()
 {
   myCenter=new google.maps.LatLng(61.219138, 21.620098);
